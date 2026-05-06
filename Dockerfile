@@ -1,6 +1,10 @@
 # 1. Start with Python 3 for the Web UI
 FROM python:3.10-slim-buster
 
+LABEL org.opencontainers.image.title="RetroGeo"
+LABEL org.opencontainers.image.description="Converts modern MaxMind GeoIP2 databases to legacy .dat formats"
+LABEL org.opencontainers.image.source="https://github.com/Sparky12488/GeoIPConvert-v2-to-v1"
+
 # 2. Set the working directory
 WORKDIR /app
 
