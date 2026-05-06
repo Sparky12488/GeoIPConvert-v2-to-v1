@@ -1,7 +1,0 @@
-streamlit
-cryptography
-streamlit-authenticator
-pyyaml
-apscheduler
-croniter
-pandas
