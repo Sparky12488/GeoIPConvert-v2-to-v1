@@ -42,3 +42,12 @@ Thumbs.db
 .env
 .venv
 *.env
+
+# Data and Databases (Ignoring everything in data except Delete_Me)
+data/*
+!data/Delete_Me
+appliance.log
+history.db
+
+# Misc
+.DS_Store
