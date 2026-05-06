@@ -32,7 +32,7 @@ VERSION_NUMBER = version_path.read_text().strip()
 
 logger = get_ui_logger()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOGO_PATH = os.path.join(BASE_DIR, "assets", "LB-Flat-White-RGB.png")
+LOGO_PATH = os.path.join(BASE_DIR, "assets", "retrogeo_logo.png")
 SETTINGS_PATH = "config/settings.json"
 LIST_PATH = "data/legacy_list.json"
 SCHEDULE_FILE = "config/schedule.txt"
@@ -41,7 +41,7 @@ DB_PATH = "data/history.db"
 
 
 # 1. Page Config
-st.set_page_config(page_title="GeoIP Tool", layout="wide")
+st.set_page_config(page_title="RetroGeo", layout="wide")
 
 
 

@@ -1,7 +1,6 @@
 services:
   geoip-service:
-    #image: repo.digiscout.uk/geoip_convert-v2-v1:latest
-    image: geoip_convert-v2-v1:latest
+    image: retrogeo:latest
     restart: unless-stopped
     ports:
       - "8501:8501"
@@ -13,8 +12,7 @@ services:
       - MASTER_KEY_FILE=/app/config/.master.key
 
   geoip-worker:
-    #image: repo.digiscout.uk/geoip_convert-v2-v1:latest
-    image: geoip_convert-v2-v1:latest
+    image: retrogeo:latest
     restart: unless-stopped
     volumes:
       - ./config:/app/config
