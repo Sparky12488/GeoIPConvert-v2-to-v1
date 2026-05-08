@@ -1,0 +1,16 @@
+# Python Virtual Environment
+.venv/
+__pycache__/
+
+# Streamlit local settings
+.streamlit/
+
+
+# Data and Databases (Ignoring everything in data except Delete_Me)
+data/*
+!data/Delete_Me
+appliance.log
+history.db
+
+# Misc
+.DS_Store
